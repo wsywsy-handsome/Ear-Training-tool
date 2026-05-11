@@ -1,0 +1,69 @@
+chords:
+  single:
+    label: Single Note
+    intervals: [0]
+    group: single
+  major:
+    label: Major
+    intervals: [0, 4, 7]
+    group: triads
+  minor:
+    label: Minor
+    intervals: [0, 3, 7]
+    group: triads
+  diminished:
+    label: Diminished
+    intervals: [0, 3, 6]
+    group: triads
+  augmented:
+    label: Augmented
+    intervals: [0, 4, 8]
+    group: triads
+  sus2:
+    label: Suspended 2
+    intervals: [0, 2, 7]
+    group: suspended
+  sus4:
+    label: Suspended 4
+    intervals: [0, 5, 7]
+    group: suspended
+  dominant7:
+    label: Dominant 7
+    intervals: [0, 4, 7, 10]
+    group: sevenths
+  major7:
+    label: Major 7
+    intervals: [0, 4, 7, 11]
+    group: sevenths
+  minor7:
+    label: Minor 7
+    intervals: [0, 3, 7, 10]
+    group: sevenths
+  half_diminished7:
+    label: Half-diminished 7
+    intervals: [0, 3, 6, 10]
+    group: sevenths
+  diminished7:
+    label: Diminished 7
+    intervals: [0, 3, 6, 9]
+    group: sevenths
+  add9:
+    label: Add 9
+    intervals: [0, 4, 7, 14]
+    group: ninths
+  minor_add9:
+    label: Minor add 9
+    intervals: [0, 3, 7, 14]
+    group: ninths
+  dominant9:
+    label: Dominant 9
+    intervals: [0, 4, 7, 10, 14]
+    group: ninths
+  major9:
+    label: Major 9
+    intervals: [0, 4, 7, 11, 14]
+    group: ninths
+  minor9:
+    label: Minor 9
+    intervals: [0, 3, 7, 10, 14]
+    group: ninths

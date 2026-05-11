@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+ear_training/__init__.py
+ear_training/__main__.py
+ear_training/chords.yaml
+ear_training/cli.py
+ear_training/config.py
+ear_training/midi_io.py
+ear_training/music.py
+ear_training.egg-info/PKG-INFO
+ear_training.egg-info/SOURCES.txt
+ear_training.egg-info/dependency_links.txt
+ear_training.egg-info/entry_points.txt
+ear_training.egg-info/requires.txt
+ear_training.egg-info/top_level.txt
+tests/test_music.py

@@ -1,0 +1,2 @@
+[console_scripts]
+ear-training = ear_training.cli:main
