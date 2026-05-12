@@ -48,6 +48,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     gui_parser = subparsers.add_parser("gui", help="Start the visual chord recognition drill")
     gui_parser.add_argument("--config", default=str(DEFAULT_CONFIG), help="Path to chords YAML")
+    gui_parser.add_argument(
+        "--settings",
+        default=str(Path.cwd() / "config" / "gui_settings.yaml"),
+        help="Path to persisted GUI settings YAML",
+    )
     gui_parser.add_argument("--input", help="MIDI input port name")
     gui_parser.add_argument("--output", help="MIDI output port name")
     gui_parser.add_argument("--chords", nargs="+", help="Chord pattern names to include")
